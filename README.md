@@ -1,5 +1,8 @@
 # GodotDialogue Lite 1.0.0
 
+[Free GodotDialogue Lite](https://mustafa-sec.itch.io/godotdialogue-lite)  
+[Paid GodotDialogue](https://mustafa-sec.itch.io/godotdialogue-godot-4-json-branching-dialogue)  
+
 Free MIT Godot 4 addon for JSON dialogue lines and ordered, unconditional choices. Original small implementation; no dependencies, autoload or editor plugin activation required.
 
 ## Run and install
