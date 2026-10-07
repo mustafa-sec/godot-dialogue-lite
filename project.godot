@@ -1,0 +1,12 @@
+config_version=5
+[application]
+config/name="GodotDialogue Lite"
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.0", "GL Compatibility")
+config/icon="res://icon.png"
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=600
+[rendering]
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.055, 0.075, 0.12, 1)

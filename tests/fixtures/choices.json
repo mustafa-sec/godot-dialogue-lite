@@ -1,0 +1,43 @@
+{
+  "format": "godot_dialogue_lite",
+  "version": 1,
+  "start": "menu",
+  "nodes": {
+    "menu": {
+      "type": "choice",
+      "choices": [
+        {
+          "id": "path",
+          "text": "Go",
+          "next": "path"
+        },
+        {
+          "id": "loop",
+          "text": "",
+          "next": "menu"
+        },
+        {
+          "id": "leave",
+          "text": "Leave",
+          "next": null
+        }
+      ]
+    },
+    "path": {
+      "type": "line",
+      "speaker": "Guide",
+      "text": "Path",
+      "next": "second"
+    },
+    "second": {
+      "type": "choice",
+      "choices": [
+        {
+          "id": "back",
+          "text": "Back",
+          "next": "menu"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+AI assisted — Code + Text.
+Code, documentation and tests were prepared with AI assistance.
+The icon and release artwork were rendered by code, not an AI image generator.

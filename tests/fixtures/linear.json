@@ -1,0 +1,19 @@
+{
+  "format": "godot_dialogue_lite",
+  "version": 1,
+  "start": "a",
+  "nodes": {
+    "a": {
+      "type": "line",
+      "speaker": "星",
+      "text": "[b]café 😀[/b]",
+      "next": "b"
+    },
+    "b": {
+      "type": "line",
+      "speaker": "",
+      "text": "",
+      "next": null
+    }
+  }
+}
