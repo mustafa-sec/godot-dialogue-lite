@@ -1,4 +1,11 @@
-* text=auto
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
 *.gd text eol=lf
 *.tscn text eol=lf
 *.png binary
+
+# Only include the addons folder (and the licence) when downloading from the Asset Library.
+/**        export-ignore
+/addons    !export-ignore
+/addons/** !export-ignore
+/LICENSE   !export-ignore
